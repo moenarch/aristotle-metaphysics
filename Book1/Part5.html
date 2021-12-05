@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 5 - Metaphysics</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html" class="active"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book4/Part7.html"><strong aria-hidden="true">4.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book4/Part8.html"><strong aria-hidden="true">4.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book5.html"><strong aria-hidden="true">5.</strong> Book 5</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book5/Part1.html"><strong aria-hidden="true">5.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book5/Part2.html"><strong aria-hidden="true">5.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book5/Part3.html"><strong aria-hidden="true">5.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book5/Part4.html"><strong aria-hidden="true">5.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book5/Part5.html"><strong aria-hidden="true">5.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book5/Part6.html"><strong aria-hidden="true">5.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book5/Part7.html"><strong aria-hidden="true">5.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book5/Part8.html"><strong aria-hidden="true">5.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book5/Part9.html"><strong aria-hidden="true">5.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book5/Part10.html"><strong aria-hidden="true">5.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book5/Part11.html"><strong aria-hidden="true">5.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book5/Part12.html"><strong aria-hidden="true">5.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book5/Part13.html"><strong aria-hidden="true">5.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book5/Part14.html"><strong aria-hidden="true">5.14.</strong> Part 14</a></li><li class="chapter-item expanded "><a href="../Book5/Part15.html"><strong aria-hidden="true">5.15.</strong> Part 15</a></li><li class="chapter-item expanded "><a href="../Book5/Part16.html"><strong aria-hidden="true">5.16.</strong> Part 16</a></li><li class="chapter-item expanded "><a href="../Book5/Part17.html"><strong aria-hidden="true">5.17.</strong> Part 17</a></li><li class="chapter-item expanded "><a href="../Book5/Part18.html"><strong aria-hidden="true">5.18.</strong> Part 18</a></li><li class="chapter-item expanded "><a href="../Book5/Part19.html"><strong aria-hidden="true">5.19.</strong> Part 19</a></li><li class="chapter-item expanded "><a href="../Book5/Part20.html"><strong aria-hidden="true">5.20.</strong> Part 20</a></li><li class="chapter-item expanded "><a href="../Book5/Part21.html"><strong aria-hidden="true">5.21.</strong> Part 21</a></li><li class="chapter-item expanded "><a href="../Book5/Part22.html"><strong aria-hidden="true">5.22.</strong> Part 22</a></li><li class="chapter-item expanded "><a href="../Book5/Part23.html"><strong aria-hidden="true">5.23.</strong> Part 23</a></li><li class="chapter-item expanded "><a href="../Book5/Part24.html"><strong aria-hidden="true">5.24.</strong> Part 24</a></li><li class="chapter-item expanded "><a href="../Book5/Part25.html"><strong aria-hidden="true">5.25.</strong> Part 25</a></li><li class="chapter-item expanded "><a href="../Book5/Part26.html"><strong aria-hidden="true">5.26.</strong> Part 26</a></li><li class="chapter-item expanded "><a href="../Book5/Part27.html"><strong aria-hidden="true">5.27.</strong> Part 27</a></li><li class="chapter-item expanded "><a href="../Book5/Part28.html"><strong aria-hidden="true">5.28.</strong> Part 28</a></li><li class="chapter-item expanded "><a href="../Book5/Part29.html"><strong aria-hidden="true">5.29.</strong> Part 29</a></li><li class="chapter-item expanded "><a href="../Book5/Part30.html"><strong aria-hidden="true">5.30.</strong> Part 30</a></li></ol></li><li class="chapter-item expanded "><a href="../Book6.html"><strong aria-hidden="true">6.</strong> Book 6</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book6/Part1.html"><strong aria-hidden="true">6.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book6/Part2.html"><strong aria-hidden="true">6.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book6/Part3.html"><strong aria-hidden="true">6.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book6/Part4.html"><strong aria-hidden="true">6.4.</strong> Part 4</a></li></ol></li><li class="chapter-item expanded "><a href="../Book7.html"><strong aria-hidden="true">7.</strong> Book 7</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book7/Part1.html"><strong aria-hidden="true">7.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book7/Part2.html"><strong aria-hidden="true">7.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book7/Part3.html"><strong aria-hidden="true">7.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book7/Part4.html"><strong aria-hidden="true">7.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book7/Part5.html"><strong aria-hidden="true">7.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book7/Part6.html"><strong aria-hidden="true">7.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book7/Part7.html"><strong aria-hidden="true">7.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book7/Part8.html"><strong aria-hidden="true">7.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book7/Part9.html"><strong aria-hidden="true">7.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book7/Part10.html"><strong aria-hidden="true">7.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book7/Part11.html"><strong aria-hidden="true">7.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book7/Part12.html"><strong aria-hidden="true">7.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book7/Part13.html"><strong aria-hidden="true">7.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book7/Part14.html"><strong aria-hidden="true">7.14.</strong> Part 14</a></li><li class="chapter-item expanded "><a href="../Book7/Part15.html"><strong aria-hidden="true">7.15.</strong> Part 15</a></li><li class="chapter-item expanded "><a href="../Book7/Part16.html"><strong aria-hidden="true">7.16.</strong> Part 16</a></li><li class="chapter-item expanded "><a href="../Book7/Part17.html"><strong aria-hidden="true">7.17.</strong> Part 17</a></li></ol></li><li class="chapter-item expanded "><a href="../Book8.html"><strong aria-hidden="true">8.</strong> Book 8</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book8/Part1.html"><strong aria-hidden="true">8.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book8/Part2.html"><strong aria-hidden="true">8.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book8/Part3.html"><strong aria-hidden="true">8.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book8/Part4.html"><strong aria-hidden="true">8.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book8/Part5.html"><strong aria-hidden="true">8.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book8/Part6.html"><strong aria-hidden="true">8.6.</strong> Part 6</a></li></ol></li><li class="chapter-item expanded "><a href="../Book9.html"><strong aria-hidden="true">9.</strong> Book 9</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book9/Part1.html"><strong aria-hidden="true">9.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book9/Part2.html"><strong aria-hidden="true">9.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book9/Part3.html"><strong aria-hidden="true">9.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book9/Part4.html"><strong aria-hidden="true">9.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book9/Part5.html"><strong aria-hidden="true">9.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book9/Part6.html"><strong aria-hidden="true">9.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book9/Part7.html"><strong aria-hidden="true">9.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book9/Part8.html"><strong aria-hidden="true">9.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book9/Part9.html"><strong aria-hidden="true">9.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book9/Part10.html"><strong aria-hidden="true">9.10.</strong> Part 10</a></li></ol></li><li class="chapter-item expanded "><a href="../Book10.html"><strong aria-hidden="true">10.</strong> Book 10</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book10/Part1.html"><strong aria-hidden="true">10.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book10/Part2.html"><strong aria-hidden="true">10.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book10/Part3.html"><strong aria-hidden="true">10.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book10/Part4.html"><strong aria-hidden="true">10.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book10/Part5.html"><strong aria-hidden="true">10.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book10/Part6.html"><strong aria-hidden="true">10.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book10/Part7.html"><strong aria-hidden="true">10.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book10/Part8.html"><strong aria-hidden="true">10.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book10/Part9.html"><strong aria-hidden="true">10.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book10/Part10.html"><strong aria-hidden="true">10.10.</strong> Part 10</a></li></ol></li><li class="chapter-item expanded "><a href="../Book11.html"><strong aria-hidden="true">11.</strong> Book 11</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book11/Part1.html"><strong aria-hidden="true">11.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book11/Part2.html"><strong aria-hidden="true">11.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book11/Part3.html"><strong aria-hidden="true">11.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book11/Part4.html"><strong aria-hidden="true">11.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book11/Part5.html"><strong aria-hidden="true">11.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book11/Part6.html"><strong aria-hidden="true">11.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book11/Part7.html"><strong aria-hidden="true">11.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book11/Part8.html"><strong aria-hidden="true">11.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book11/Part9.html"><strong aria-hidden="true">11.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book11/Part10.html"><strong aria-hidden="true">11.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book11/Part11.html"><strong aria-hidden="true">11.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book11/Part12.html"><strong aria-hidden="true">11.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book12.html"><strong aria-hidden="true">12.</strong> Book 12</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book12/Part1.html"><strong aria-hidden="true">12.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book12/Part2.html"><strong aria-hidden="true">12.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book12/Part3.html"><strong aria-hidden="true">12.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book12/Part4.html"><strong aria-hidden="true">12.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book12/Part5.html"><strong aria-hidden="true">12.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book12/Part6.html"><strong aria-hidden="true">12.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book12/Part7.html"><strong aria-hidden="true">12.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book12/Part8.html"><strong aria-hidden="true">12.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book12/Part9.html"><strong aria-hidden="true">12.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book12/Part10.html"><strong aria-hidden="true">12.10.</strong> Part 10</a></li></ol></li><li class="chapter-item expanded "><a href="../Book13.html"><strong aria-hidden="true">13.</strong> Book 13</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book13/Part1.html"><strong aria-hidden="true">13.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book13/Part2.html"><strong aria-hidden="true">13.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book13/Part3.html"><strong aria-hidden="true">13.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book13/Part4.html"><strong aria-hidden="true">13.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book13/Part5.html"><strong aria-hidden="true">13.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book13/Part6.html"><strong aria-hidden="true">13.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book13/Part7.html"><strong aria-hidden="true">13.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book13/Part8.html"><strong aria-hidden="true">13.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book13/Part9.html"><strong aria-hidden="true">13.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book13/Part10.html"><strong aria-hidden="true">13.10.</strong> Part 10</a></li></ol></li><li class="chapter-item expanded "><a href="../Book14.html"><strong aria-hidden="true">14.</strong> Book 14</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book14/Part1.html"><strong aria-hidden="true">14.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book14/Part2.html"><strong aria-hidden="true">14.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book14/Part3.html"><strong aria-hidden="true">14.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book14/Part4.html"><strong aria-hidden="true">14.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book14/Part5.html"><strong aria-hidden="true">14.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book14/Part6.html"><strong aria-hidden="true">14.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Metaphysics</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-5"><a class="header" href="#part-5">Part 5</a></h2>
+<p>Contemporaneously with these philosophers and before them, the so-called Pythagoreans, who were the first to take up mathematics, not only advanced this study, but also having been brought up in it they thought its principles were the principles of all things.
+Since of these principles numbers are by nature the first, and in numbers they seemed to see many resemblances to the things that exist and come into being-more than in fire and earth and water (such and such a modification of numbers being justice, another being soul and reason, another being opportunity-and similarly almost all other things being numerically expressible); since, again, they saw that the modifications and the ratios of the musical scales were expressible in numbers;-since, then, all other things seemed in their whole nature to be modelled on numbers, and numbers seemed to be the first things in the whole of nature, they supposed the elements of numbers to be the elements of all things, and the whole heaven to be a musical scale and a number.
+And all the properties of numbers and scales which they could show to agree with the attributes and parts and the whole arrangement of the heavens, they collected and fitted into their scheme; and if there was a gap anywhere, they readily made additions so as to make their whole theory coherent.
+E.g.
+as the number 10 is thought to be perfect and to comprise the whole nature of numbers, they say that the bodies which move through the heavens are ten, but as the visible bodies are only nine, to meet this they invent a tenth--the 'counter-earth'.
+We have discussed these matters more exactly elsewhere.</p>
+<p>But the object of our review is that we may learn from these philosophers also what they suppose to be the principles and how these fall under the causes we have named.
+Evidently, then, these thinkers also consider that number is the principle both as matter for things and as forming both their modifications and their permanent states, and hold that the elements of number are the even and the odd, and that of these the latter is limited, and the former unlimited; and that the One proceeds from both of these (for it is both even and odd), and number from the One; and that the whole heaven, as has been said, is numbers.</p>
+<p>Other members of this same school say there are ten principles, which they arrange in two columns of cognates-limit and unlimited, odd and even, one and plurality, right and left, male and female, resting and moving, straight and curved, light and darkness, good and bad, square and oblong.
+In this way Alcmaeon of Croton seems also to have conceived the matter, and either he got this view from them or they got it from him; for he expressed himself similarly to them.
+For he says most human affairs go in pairs, meaning not definite contrarieties such as the Pythagoreans speak of, but any chance contrarieties, e.g.
+white and black, sweet and bitter, good and bad, great and small.
+He threw out indefinite suggestions about the other contrarieties, but the Pythagoreans declared both how many and which their contraricties are.</p>
+<p>From both these schools, then, we can learn this much, that the contraries are the principles of things; and how many these principles are and which they are, we can learn from one of the two schools.
+But how these principles can be brought together under the causes we have named has not been clearly and articulately stated by them; they seem, however, to range the elements under the head of matter; for out of these as immanent parts they say substance is composed and moulded.</p>
+<p>From these facts we may sufficiently perceive the meaning of the ancients who said the elements of nature were more than one; but there are some who spoke of the universe as if it were one entity, though they were not all alike either in the excellence of their statement or in its conformity to the facts of nature.
+The discussion of them is in no way appropriate to our present investigation of causes, for.
+they do not, like some of the natural philosophers, assume being to be one and yet generate it out of the one as out of matter, but they speak in another way; those others add change, since they generate the universe, but these thinkers say the universe is unchangeable.
+Yet this much is germane to the present inquiry: Parmenides seems to fasten on that which is one in definition, Melissus on that which is one in matter, for which reason the former says that it is limited, the latter that it is unlimited; while Xenophanes, the first of these partisans of the One (for Parmenides is said to have been his pupil), gave no clear statement, nor does he seem to have grasped the nature of either of these causes, but with reference to the whole material universe he says the One is God.
+Now these thinkers, as we said, must be neglected for the purposes of the present inquiry-two of them entirely, as being a little too naive, viz.
+Xenophanes and Melissus; but Parmenides seems in places to speak with more insight.
+For, claiming that, besides the existent, nothing non-existent exists, he thinks that of necessity one thing exists, viz.
+the existent and nothing else (on this we have spoken more clearly in our work on nature), but being forced to follow the observed facts, and supposing the existence of that which is one in definition, but more than one according to our sensations, he now posits two causes and two principles, calling them hot and cold, i.e.
+fire and earth; and of these he ranges the hot with the existent, and the other with the non-existent.</p>
+<p>From what has been said, then, and from the wise men who have now sat in council with us, we have got thus much-on the one hand from the earliest philosophers, who regard the first principle as corporeal (for water and fire and such things are bodies), and of whom some suppose that there is one corporeal principle, others that there are more than one, but both put these under the head of matter; and on the other hand from some who posit both this cause and besides this the source of movement, which we have got from some as single and from others as twofold.</p>
+<p>Down to the Italian school, then, and apart from it, philosophers have treated these subjects rather obscurely, except that, as we said, they have in fact used two kinds of cause, and one of these-the source of movement-some treat as one and others as two.
+But the Pythagoreans have said in the same way that there are two principles, but added this much, which is peculiar to them, that they thought that finitude and infinity were not attributes of certain other things, e.g.
+of fire or earth or anything else of this kind, but that infinity itself and unity itself were the substance of the things of which they are predicated.
+This is why number was the substance of all things.
+On this subject, then, they expressed themselves thus; and regarding the question of essence they began to make statements and definitions, but treated the matter too simply.
+For they both defined superficially and thought that the first subject of which a given definition was predicable was the substance of the thing defined, as if one supposed that 'double' and '2' were the same, because 2 is the first thing of which 'double' is predicable.
+But surely to be double and to be 2 are not the same; if they are, one thing will be many-a consequence which they actually drew.
+From the earlier philosophers, then, and from their successors we can learn thus much.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book1/Part4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book1/Part6.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book1/Part4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book1/Part6.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
