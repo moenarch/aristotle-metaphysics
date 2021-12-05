@@ -1,6 +1,6 @@
 # SUMMARY
 
-- [Introduction](Introduction.md)
+[Introduction](Introduction.md)
 
 ---
 
